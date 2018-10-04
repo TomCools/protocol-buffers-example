@@ -1,0 +1,7 @@
+syntax = "proto3";
+package EXPERIMON.protos;
+
+message DistanceWalked {
+	string userId = 1;
+	double distance = 2;
+}
